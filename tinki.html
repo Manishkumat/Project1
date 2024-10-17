@@ -1,0 +1,575 @@
+<html>
+<head>
+<title></title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<style>
+.A {
+display:flex;
+justify-content:space-evenly;
+}
+
+.navbar-brand {
+font-size:50px;
+}
+.d-flex {
+margin-right:200px;
+width:600px;
+}
+.container-fluid {
+margin-right:20px;
+}
+.c {
+display:flex;
+justify-content:space-evenly;
+
+}
+.z {
+display:flex;
+justify-content:space-evenly;
+gap:20px;
+}
+.z img {
+width:300px;
+height:300px;
+border-radius:10px;
+margin-top:10px;
+}
+.w {
+display-flex;
+justify-content:space-evenly;
+}
+.x img{
+display-flex;
+justify-content:space-evenly;
+width:40%;
+height:40%;
+}
+.carousel-inner {
+margin-top:100px;
+
+}
+.simple button {
+background-color:white;
+color:black;
+border-color:black;
+margin-top:40px;
+border-radius:1px;
+}
+.p {
+margin-left:200px;
+margin-right:200px;
+margin-top:70px;
+}
+.shop {
+margin-top:70px;
+}
+.card{
+border:transparent;
+}
+.as {
+display:flex;
+justify-content:space-evenly;
+margin-top:100px;
+
+}
+.za {
+background-image:url("https://pixels.com/images/overview/apparel/mensTshirts002.jpg");
+width:400px;
+height:300px;
+}
+.e {
+background-image:url("https://images.unsplash.com/photo-1485218126466-34e6392ec754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dCUyMHNoaXJ0JTIwd29tYW58ZW58MHx8MHx8fDA%3D&w=500&q=80");
+width:400px;
+height:300px;
+
+}
+.o {
+background-image:url("https://media.istockphoto.com/id/1381709899/photo/portrait-of-young-female-athlete-standing-outside-at-sunset-time.webp?b=1&s=170667a&w=0&k=20&c=oJvRPm1O2t-lOLvs64IJgf6zkKqmaOJD7dmyjCD4Uag=");
+width:400px;
+height:300px;
+
+}
+.simple button{
+background-color:white;
+color:black;
+border-color:black;
+border-radius:1px;
+margin-left:25px;
+}
+.m {
+margin-top:170px;
+}
+
+.xc {
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:100px;
+}
+.r {
+background-image:url("https://media.istockphoto.com/id/988720872/photo/happy-young-woman-holding-canvas-print-of-family-portrait.webp?b=1&s=170667a&w=0&k=20&c=hjYC6FCChwUt-KrzBTCjh2_IxNmJ-yvXz6UKvrZOX0g=");
+width:550px;
+}
+.w {
+background-image:url("https://plus.unsplash.com/premium_photo-1690440799957-38f180ab63c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+width:550px;
+}
+.cv {
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:20px;
+}
+.g {
+background-image:url("https://media.istockphoto.com/id/546439334/photo/assembly.webp?b=1&s=170667a&w=0&k=20&c=rssvCiXblNYkewOPlwnBKvbnwKeBG09qqTTl-uqsjiI=");
+width:360px;
+}
+.n {
+background-image:url("https://media.istockphoto.com/id/829436682/photo/multi-colored-school-supplies.webp?b=1&s=170667a&w=0&k=20&c=rEAVOeFsD-_7LFsPWIpV_g-qb6_xzDM-2Z_D2Lghi_o=");
+width:360px;
+}
+.y {
+background-image:url("https://images.unsplash.com/photo-1607893378714-007fd47c8719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWNyeWxpY3xlbnwwfHwwfHx8MA%3D%3D&w=400&q=40");
+width:360px;
+}
+.q1 {
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:100px;
+}
+.q2 {
+background-image:url("https://images.unsplash.com/photo-1591723314050-ce8935ae8fbc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=350&q=60");
+width:360;
+}
+.q3 {
+background-image:url("https://media.istockphoto.com/id/1279912899/photo/beautiful-woman-in-winter-thick-warm-robe-is-sitting-and-neatly-folding-bed-linens-and-bath.webp?b=1&s=170667a&w=0&k=20&c=wgIrIQQIIhTQuMXvYHLLZ7SG-PrJqH7Ox9t9qwiN5nk=");
+width:360;
+}
+.q4 {
+background-image:url("https://images.unsplash.com/photo-1599603780100-9a9e42b0489f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvd2VyJTIwY3VydGFpbnxlbnwwfHwwfHx8MA%3D%3D&w=400&q=80");
+width:360;
+}
+.w1 {
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:100px;
+}
+.w2 {
+background-image:url("https://images.unsplash.com/photo-1638153646290-fb1f6ecbc336?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5ODYwNTY1fHxlbnwwfHx8fHw%3D&w=400&q=40");
+width:360px;
+}
+.w3 {
+background-image:url("https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Ftc3VuZyUyMGdhbGF4eXxlbnwwfHwwfHx8MA%3D%3D&w=400&q=80");
+width:360px;
+}
+.w4 {
+background-image:url("https://images.unsplash.com/photo-1619489646924-b4fce76b1db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGFibGUlMjBjaGFyZ2VyfGVufDB8fDB8fHww&w=400&q=80");
+width:360px;
+}
+.e1 {
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:100px;
+}
+.e2 {
+background-image:url("https://media.istockphoto.com/id/1324877187/photo/close-up-of-athletic-woman-rolling-up-her-exercise-mat-after-practicing-at-health-club.webp?b=1&s=170667a&w=0&k=20&c=xxIrL1K4wO1OiTiFIKqNPn2YECPPEAviYzVZfYCkocY=");
+width:360px;
+margin-left:30px;
+}
+.e3 {
+background-image:url("https://media.istockphoto.com/id/1394784646/photo/young-woman-with-white-cotton-bag-on-her-shoulder.webp?b=1&s=170667a&w=0&k=20&c=Nw3tOZ1cFRltQUYpsy4bVk7L-oA2Gwe7FitwRAFSvtM=");
+width:360px;
+}
+.e4 {
+background-image:url("https://images.unsplash.com/photo-1610387695018-3a90bf21c575?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVnc3xlbnwwfHwwfHx8MA%3D%3D&w=350&q=80");
+width:360px;
+}
+.r0 {
+background-color:black;
+}
+.r1 {
+display:flex;
+justify-content:center;
+gap:60px;
+color:white;
+}
+.r3 {
+display:flex;
+justify-content:center;
+gap:60px;
+color:white;
+margin-top:30px;
+}
+.r2 {
+margin-top:30px;
+}
+.r0 {
+margin-top:100px;
+}
+.si{
+background-color:black;
+color:white;
+border-color:black;
+border-radius:1px;
+}
+</style>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://st2.depositphotos.com/38197074/45239/v/600/depositphotos_452391444-stock-illustration-initial-letter-vector-logo-icon.jpg" alt="Logo" width="100" height="80" class="d-inline-block align-text-top">
+      PIXELS
+    </a>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+  <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        
+      </form>
+	  <div class="A">
+	  <li class="nav-item dropdown">
+    <a class="navbar-brands" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">SHOP</a>
+	<ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+         <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+         </ul>
+		      <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+	</li></div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">CREATE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SELL</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            DISCOVER
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  </div>
+</nav>
+
+
+
+
+
+<center><div class="simple button">
+<button type="button" class="btn btn-primary">Apparel</button>
+<button type="button" class="btn btn-secondary">Wall Art</button>
+<button type="button" class="btn btn-success">Home Decor</button>
+<button type="button" class="btn btn-danger">Lifestyle</button>
+<button type="button" class="btn btn-warning">Tech</button>
+<button type="button" class="btn btn-info">Collection</button>
+</div></center>
+
+<div class="p">
+<center><p>Hundreds of thousands of independent artists and iconic brands... millions of unique products... 16 global
+ production facilities in 5 different countries running 24 hours per day... and the world's hardest working 
+ staff running the show from Santa Monica, California.   Decorate your home and accessorize your life with 
+ incredible works of art, and help support living artists all over the world.   Welcome to Pixels!</p></center>
+ </div>
+ 
+ 
+ <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	<div class="z">
+      <img src="https://lh3.googleusercontent.com/JF-kt2bnV9C2lRzsuGyvPBblW69FVI7bM726U0i1GVsjZ3H_boT62uit3tdehS55aVBv8n6YZwTpw9dZN21WuRsPa29IY1euxs7EYw" class="d-block w-10" alt="...">
+	  <img src="https://img.freepik.com/free-vector/pixel-rain-abstract-background_23-2148377118.jpg?w=2000" class="d-block w-10" alt="...">
+	  <img src="https://img.freepik.com/premium-vector/abstract-technology-digital-background-design_41981-1249.jpg?w=2000" class="d-block w-10" alt="...">
+	  <img src="https://lh3.googleusercontent.com/PfP124bXyD-y2z5OZMRchGV1mWNa9GZVsYLolIs1HVbsMks2fy5tFG3lABFCoTuO996yiVirfnQ56GyJCJ0at0kMSLfgJY1jrVUhwYL3qEKPWwfUnQ=w620-l90-sg-c0xffffff-e30" class="d-block w-10" alt="...">
+	</div></div>
+    <div class="carousel-item">
+	<div class="z">
+      <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?w=2000" class="d-block w-10" alt="...">
+	  <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_Image_Thumbnail.width-1300.jpg" class="d-block w-10" alt="...">
+	  <img src="https://500px.com/staticV2/media/editors3@1x.c969da9e.png" class="d-block w-10" alt="...">
+	  <img src="https://cdn.akamai.steamstatic.com/steam/apps/1204050/capsule_616x353.jpg?t=1675459548" class="d-block w-10" alt="...">
+    </div></div>
+    <div class="carousel-item">
+	<div class="z">
+      <img src="https://cdn.moonaz.net/rs/wallpaper/image/642fcc4ed1181.jpg" class="d-block w-10" alt="...">
+	  <img src="https://cdn.pixabay.com/photo/2023/05/27/16/08/flowers-8021795_1280.jpg" class="d-block w-10" alt="...">
+	  <img src="https://www.lg.com/levant_en/images/plp-b2c/HE-OLED-768x1080.jpg" class="d-block w-10" alt="...">
+	  <img src="https://cdn.pixabay.com/photo/2023/06/25/08/46/woman-8086721_640.jpg" class="d-block w-10" alt="...">
+    </div></div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<center><div class="simple button">
+<button type="button" class="btn btn-primary">View all Product</button>
+</div></center>
+
+
+<div class="shop">
+<center><h1 style="font-size:25px">SHOP BY DEPARTMENT</h1></div>
+
+
+
+<div class="as">
+<div class="za">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">MEN'S T-SHIRTS</button>
+</div></div>
+</div>
+<div class="e">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">WOMEN'S T-SHIRTS</button>
+</div></div>
+</div>
+<div class="o">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary">TANK TOP</button>
+</div></div>
+</div>
+</div>
+
+
+<center><div class="simple button">
+<button type="button" class="btn btn-outline-primary xyz">Shop Apparel</button>
+</div></center>
+
+
+<div class="xc">
+<div class="w">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">FRAMED PRINTS</button>
+</div></div>
+</div>
+<div class="r">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary">CANVAS PRINTS</button>
+</div></div>
+</div>
+</div>
+
+
+<div class="cv">
+<div class="g">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">ART PRINTS</button>
+</div></div>
+</div><div class="n">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">POSTERS</button>
+</div></div>
+</div>
+<div class="y">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">ACRYLIC PRINTS</button>
+</div></div>
+</div>
+</div>
+
+
+<center><div class="simple button">
+<button type="button" class="btn btn-outline-primary xyz">Shop Wall Art</button>
+</div></center>
+
+
+
+<div class="q1">
+<div class="q2">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">THROW PILLOWS</button>
+</div></div>
+</div><div class="q3">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">DUVET COVERS</button>
+</div></div>
+</div>
+<div class="q4">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">SHOWER CURTAINS</button>
+</div></div>
+</div>
+</div>
+
+
+
+<center><div class="simple button">
+<button type="button" class="btn btn-outline-primary xyz">Shop Home Decor</button>
+</div></center>
+
+<div class="w1">
+<div class="w2">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">I-PHONE CASES</button>
+</div></div>
+</div>
+<div class="w3">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">GALAXY CASES</button>
+</div></div>
+</div>
+<div class="w4">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">PORTABLE CHARGERS</button>
+</div></div>
+</div>
+</div>
+
+
+<center><div class="simple button">
+<button type="button" class="btn btn-outline-primary xyz">Shop Tech</button>
+</div></center>
+
+
+<div class="e1">
+<div class="e2">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">YOGA MATS</button>
+</div></div>
+</div>
+<div class="e3">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">TOTE BAGS</button>
+</div></div>
+</div>
+<div class="e4">
+<div class="simple button">
+<div class="m">
+<button type="button" class="btn btn-outline-primary xyz">COFFEE MUGS</button>
+</div></div>
+</div>
+</div>
+
+
+<center><div class="simple button">
+<button type="button" class="btn btn-outline-primary xyz">Shop Lifestyle</button>
+</div></center>
+
+<div class="r0">
+<div class="r1">
+<div class="r2">
+<center><h5 style="font-size:40px">5+ MILLION</h5></center><br>
+<p style="color:gray">We've shipped millions of museum-quality<br>
+ products to buyers all over the world. Each<br>
+ product is hand-crafted by our team of expert<br>
+ craftsmen and delivered to your doorstep with a<br>
+ 30-day money-back guarantee.</p>
+ <center><div class="si">
+<button type="button" class="btn btn-outline-secondary">Start Shopping</button>
+</div></center>
+</div>
+<div class="r2">
+<center><h5 style="font-size:40px">100,000+</h5></center><br>
+<p style="color:gray">Hundreds of thousands of independent artists<br>
+ from all over the world use Pixels to sell wall art,<br>
+ home decor, apparel, and more.   Every order<br>
+ pays an artist!</p><br>
+ <center><div class="si">
+<button type="button" class="btn btn-outline-secondary">Meet the Artist</button>
+</div></center>
+</div>
+<div class="r2">
+<center><h5 style="font-size:40px">2006</h5></center>
+<br>
+<p style="color:gray">We launched our business way back in 2006<br>
+ and have spent the past decade-and-a-half<br>
+ building the world's largest online art<br>
+ marketplace. We're still independently owned<br>
+ by our Founder / CEO to this day!</p>
+ <center><div class="si">
+<button type="button" class="btn btn-outline-secondary">Read our History</button>
+</div></center>
+</div>
+</div>
+<div class="r3">
+<div class="r4">
+<center><h5 style="font-size:40px">100+</h5></center>
+<p style="color:gray">Pixels is home to hundreds of iconic global<br>
+ brands. Our technology powers the e-<br>
+ commerce sales for Sports Illustrated, Vanity<br>
+ Fair, Vogue, GQ, National Geographic, Major<br>
+ League Baseball, and many more.</p>
+ <center><div class="si">
+<button type="button" class="btn btn-outline-secondary">Meet the brands</button>
+</div></center>
+</div>
+<div class="r4">
+<center><h5 style="font-size:40px">16</h5></center>
+<p style="color:gray">We have 16 manufacturing centers located in<br>
+ five different countries running 24/7. Your order<br>
+ will be manufactured at the location nearest to<br>
+ you in order to minimize delivery times and<br>
+ shipping costs.</p>
+ <center><div class="si">
+<button type="button" class="btn btn-outline-secondary">View map</button>
+</div></center>
+</div>
+<div class="r4">
+<center><h5 style="font-size:40px">ONE</h5></center>
+<p style="color:gray">We're an independent company supporting<br>
+ hundreds of thousands of independent artists.<br>
+ We're independent... together.   Thank you for<br>
+ shopping Pixels and supporting the visual arts!</p><br>
+ <center><div class="si">
+<button type="button" class="btn btn-outline-secondary">start shopping</button>
+</div></center>
+</div>
+</div></div>
+
+</body>
+</html>
